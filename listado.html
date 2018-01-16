@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="styles/normalizer.css" />
+	<link rel="stylesheet" type="text/css" href="styles/styles.css" />
+	<link rel="stylesheet" type="text/css" href="styles/styles_listado.css" />
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script type="text/javascript" src="js/cntrl.js"></script>
+	<title>Listado. Rafael Carmona Arrabal.</title>
+</head>
+<body>
+	<!--article, aside, o nav? es independiente del contenido y tiene relación con el. además se usa como navegación a otra pagina -->
+	<header id="head">
+		<div id="header1">
+			<section>
+				<a href="" id="botonBuscador"><i class="fa fa-search"></i></a>
+			</section>
+			<h1>CasaRural.com</h1>
+		</div>
+		<div id="header2" class="headerSinScroll">
+			<a href="" id=""><h1>CasaRural.com</h1></a>
+			<div id="header2Destino">
+				<input type="text" placeholder="Destino...">
+			</div>
+			<div>
+				<label for="">Salida</label>
+				<input type="date" placeholder="hola">
+			</div>
+			<div>
+				<label for="">Llegada</label>
+				<input type="date" placeholder="date">
+			</div>
+			<div>
+				<select class="header2Personas">
+					  <option value="1">1 huésped</option>
+					  <option value="2">2 huéspedes</option>
+					  <option value="3">3 huéspedes</option>
+					  <option value="4">4 o más huéspedes</option>
+				</select class="header2Habitaciones">
+			</div>
+			<div>
+				<select class="header2Habitaciones">
+					  <option value="1">1 habitación</option>
+					  <option value="2">2 habitaciones</option>
+					  <option value="3">3 habitaciones</option>
+					  <option value="4">4 o más habitaciones</option>
+				</select>
+			</div>
+			<div id="header2Buscar">
+				<button>Buscar</button>
+			</div>
+		</div>
+	</header>
+	<section class="buscadorCerrado" id="cajaBuscador">
+		<a href="" id="botonCerrar"><i class="fa fa-close"></i></a>
+		<div id="formBuscador">
+			<div id="formDestino">
+				<label>Destino</label><input type="text" placeholder="Nombre de tu destino...">
+			</div>
+				<div id="llegada">
+					<label>Fecha llegada</label><input type="date">
+				</div>
+			<div id="salida">
+				<label>Fecha Salida</label><input type="date">
+			</div>
+			<div id="personas">
+				<label>Nº de huéspedes</label><input type="number" name="quantity" min="1" max="4">
+			</div>
+			<div id="habitaciones">
+				<label>Nº de habitaciones</label><input type="number" name="quantity" min="1" max="4">
+			</div>
+			<div id="formBuscar">
+				<button>Buscar</button>
+			</div>
+		</div>
+	</section>
+	<main>
+		<div id="web">
+			<section class="tarjetas">
+				<article id="tarjetaInd">
+					<a href="formulario.html">
+						<div class="backgroundShadow"></div>
+						<div class="nombreCasa"><span>Nombre casa 1</span></div>
+						<div class="precioCasa"><span>300€</span></div>
+					</a>
+					<div class="tarjetaFooter"><div class="tags">
+						<div>			
+							<img src="imgs/wifi.svg" alt="">
+							<img src="imgs/ok.svg" alt="">
+						</div>
+						<div>
+							<img src="imgs/pool.svg" alt="">
+							<img src="imgs/cancel.svg" alt="">
+						</div>
+						<div>
+							<img src="imgs/room.svg" alt="">
+							<img src="imgs/four.svg" alt="">
+						</div>
+					</div>
+					<div  class="botonReservar"><button>Reservar</button><a href="#"><i class="fa fa-heart"></i></a></div></div>
+				</article><article id="tarjetaInd">
+					<a href="formulario.html">
+						<div class="backgroundShadow"></div>
+						<div class="nombreCasa"><span>Nombre casa 1</span></div>
+						<div class="precioCasa"><span>300€</span></div>
+					</a>
+					<div class="tarjetaFooter"><div class="tags">
+						<div>			
+							<img src="imgs/wifi.svg" alt="">
+							<img src="imgs/ok.svg" alt="">
+						</div>
+						<div>
+							<img src="imgs/pool.svg" alt="">
+							<img src="imgs/cancel.svg" alt="">
+						</div>
+						<div>
+							<img src="imgs/room.svg" alt="">
+							<img src="imgs/four.svg" alt="">
+						</div>
+					</div>
+					<div  class="botonReservar"><button>Reservar</button><a href="#"><i class="fa fa-heart"></i></a></div></div>
+				</article><article id="tarjetaInd">
+					<a href="formulario.html">
+						<div class="backgroundShadow"></div>
+						<div class="nombreCasa"><span>Nombre casa 1</span></div>
+						<div class="precioCasa"><span>300€</span></div>
+					</a>
+					<div class="tarjetaFooter"><div class="tags">
+						<div>			
+							<img src="imgs/wifi.svg" alt="">
+							<img src="imgs/ok.svg" alt="">
+						</div>
+						<div>
+							<img src="imgs/pool.svg" alt="">
+							<img src="imgs/cancel.svg" alt="">
+						</div>
+						<div>
+							<img src="imgs/room.svg" alt="">
+							<img src="imgs/four.svg" alt="">
+						</div>
+					</div>
+					<div  class="botonReservar"><button>Reservar</button><a href="#"><i class="fa fa-heart"></i></a></div></div>
+				</article><article id="tarjetaInd">
+					<a href="formulario.html">
+						<div class="backgroundShadow"></div>
+						<div class="nombreCasa"><span>Nombre casa 1</span></div>
+						<div class="precioCasa"><span>300€</span></div>
+					</a>
+					<div class="tarjetaFooter"><div class="tags">
+						<div>			
+							<img src="imgs/wifi.svg" alt="">
+							<img src="imgs/ok.svg" alt="">
+						</div>
+						<div>
+							<img src="imgs/pool.svg" alt="">
+							<img src="imgs/cancel.svg" alt="">
+						</div>
+						<div>
+							<img src="imgs/room.svg" alt="">
+							<img src="imgs/four.svg" alt="">
+						</div>
+					</div>
+					<div  class="botonReservar"><button>Reservar</button><a href="#"><i class="fa fa-heart"></i></a></div></div>
+				</article><article id="tarjetaInd">
+					<a href="formulario.html">
+						<div class="backgroundShadow"></div>
+						<div class="nombreCasa"><span>Nombre casa 1</span></div>
+						<div class="precioCasa"><span>300€</span></div>
+					</a>
+					<div class="tarjetaFooter"><div class="tags">
+						<div>			
+							<img src="imgs/wifi.svg" alt="">
+							<img src="imgs/ok.svg" alt="">
+						</div>
+						<div>
+							<img src="imgs/pool.svg" alt="">
+							<img src="imgs/cancel.svg" alt="">
+						</div>
+						<div>
+							<img src="imgs/room.svg" alt="">
+							<img src="imgs/four.svg" alt="">
+						</div>
+					</div>
+					<div  class="botonReservar"><button>Reservar</button><a href="#"><i class="fa fa-heart"></i></a></div></div>
+				</article><article id="tarjetaInd">
+					<a href="formulario.html">
+						<div class="backgroundShadow"></div>
+						<div class="nombreCasa"><span>Nombre casa 1</span></div>
+						<div class="precioCasa"><span>300€</span></div>
+					</a>
+					<div class="tarjetaFooter"><div class="tags">
+						<div>			
+							<img src="imgs/wifi.svg" alt="">
+							<img src="imgs/ok.svg" alt="">
+						</div>
+						<div>
+							<img src="imgs/pool.svg" alt="">
+							<img src="imgs/cancel.svg" alt="">
+						</div>
+						<div>
+							<img src="imgs/room.svg" alt="">
+							<img src="imgs/four.svg" alt="">
+						</div>
+					</div>
+					<div  class="botonReservar"><button>Reservar</button><a href="#"><i class="fa fa-heart"></i></a></div></div>
+				</article><article id="tarjetaInd">
+					<a href="formulario.html">
+						<div class="backgroundShadow"></div>
+						<div class="nombreCasa"><span>Nombre casa 1</span></div>
+						<div class="precioCasa"><span>300€</span></div>
+					</a>
+					<div class="tarjetaFooter"><div class="tags">
+						<div>			
+							<img src="imgs/wifi.svg" alt="">
+							<img src="imgs/ok.svg" alt="">
+						</div>
+						<div>
+							<img src="imgs/pool.svg" alt="">
+							<img src="imgs/cancel.svg" alt="">
+						</div>
+						<div>
+							<img src="imgs/room.svg" alt="">
+							<img src="imgs/four.svg" alt="">
+						</div>
+					</div>
+					<div  class="botonReservar"><button>Reservar</button><a href="#"><i class="fa fa-heart"></i></a></div></div>
+				</article><article id="tarjetaInd">
+					<a href="formulario.html">
+						<div class="backgroundShadow"></div>
+						<div class="nombreCasa"><span>Nombre casa 1</span></div>
+						<div class="precioCasa"><span>300€</span></div>
+					</a>
+					<div class="tarjetaFooter"><div class="tags">
+						<div>			
+							<img src="imgs/wifi.svg" alt="">
+							<img src="imgs/ok.svg" alt="">
+						</div>
+						<div>
+							<img src="imgs/pool.svg" alt="">
+							<img src="imgs/cancel.svg" alt="">
+						</div>
+						<div>
+							<img src="imgs/room.svg" alt="">
+							<img src="imgs/four.svg" alt="">
+						</div>
+					</div>
+					<div  class="botonReservar"><button>Reservar</button><a href="#"><i class="fa fa-heart"></i></a></div></div>
+				</article><article id="tarjetaInd">
+					<a href="formulario.html">
+						<div class="backgroundShadow"></div>
+						<div class="nombreCasa"><span>Nombre casa 1</span></div>
+						<div class="precioCasa"><span>300€</span></div>
+					</a>
+					<div class="tarjetaFooter"><div class="tags">
+						<div>			
+							<img src="imgs/wifi.svg" alt="">
+							<img src="imgs/ok.svg" alt="">
+						</div>
+						<div>
+							<img src="imgs/pool.svg" alt="">
+							<img src="imgs/cancel.svg" alt="">
+						</div>
+						<div>
+							<img src="imgs/room.svg" alt="">
+							<img src="imgs/four.svg" alt="">
+						</div>
+					</div>
+					<div  class="botonReservar"><button>Reservar</button><a href="#"><i class="fa fa-heart"></i></a></div></div>
+				</article><article id="tarjetaInd">
+					<a href="formulario.html">
+						<div class="backgroundShadow"></div>
+						<div class="nombreCasa"><span>Nombre casa 1</span></div>
+						<div class="precioCasa"><span>300€</span></div>
+					</a>
+					<div class="tarjetaFooter"><div class="tags">
+						<div>			
+							<img src="imgs/wifi.svg" alt="">
+							<img src="imgs/ok.svg" alt="">
+						</div>
+						<div>
+							<img src="imgs/pool.svg" alt="">
+							<img src="imgs/cancel.svg" alt="">
+						</div>
+						<div>
+							<img src="imgs/room.svg" alt="">
+							<img src="imgs/four.svg" alt="">
+						</div>
+					</div>
+					<div  class="botonReservar"><button>Reservar</button><a href="#"><i class="fa fa-heart"></i></a></div></div>
+				</article><article id="tarjetaInd">
+					<a href="formulario.html">
+						<div class="backgroundShadow"></div>
+						<div class="nombreCasa"><span>Nombre casa 1</span></div>
+						<div class="precioCasa"><span>300€</span></div>
+					</a>
+					<div class="tarjetaFooter"><div class="tags">
+						<div>			
+							<img src="imgs/wifi.svg" alt="">
+							<img src="imgs/ok.svg" alt="">
+						</div>
+						<div>
+							<img src="imgs/pool.svg" alt="">
+							<img src="imgs/cancel.svg" alt="">
+						</div>
+						<div>
+							<img src="imgs/room.svg" alt="">
+							<img src="imgs/four.svg" alt="">
+						</div>
+					</div>
+					<div  class="botonReservar"><button>Reservar</button><a href="#"><i class="fa fa-heart"></i></a></div></div>
+				</article><article id="tarjetaInd">
+					<a href="formulario.html">
+						<div class="backgroundShadow"></div>
+						<div class="nombreCasa"><span>Nombre casa 1</span></div>
+						<div class="precioCasa"><span>300€</span></div>
+					</a>
+					<div class="tarjetaFooter"><div class="tags">
+						<div>			
+							<img src="imgs/wifi.svg" alt="">
+							<img src="imgs/ok.svg" alt="">
+						</div>
+						<div>
+							<img src="imgs/pool.svg" alt="">
+							<img src="imgs/cancel.svg" alt="">
+						</div>
+						<div>
+							<img src="imgs/room.svg" alt="">
+							<img src="imgs/four.svg" alt="">
+						</div>
+					</div>
+					<div  class="botonReservar"><button>Reservar</button><a href="#"><i class="fa fa-heart"></i></a></div></div>
+				</article>
+			</section>
+		</div>
+	</main>
+		<footer id="footerPrincipal">
+			<article class="derechos">
+				<div>Icons made by <a href="https://www.flaticon.com/authors/elegant-themes" title="Elegant Themes">Elegant Themes</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+			</article>
+			<article class="iconos">
+				<a href="#"><img src="imgs/twitter.svg" alt="Twitter"></a>
+				<a href="#"><img src="imgs/facebook.svg" alt="Facebook"></a>
+				<a href="#"><img src="imgs/youtube.svg" alt="Youtube"></a>
+				<a href="#"><img src="imgs/google.svg" alt="Google"></a>
+				<a href="https://github.com/rafacarmona"><img src="imgs/logo.svg" alt="logo"></a>
+			</article>
+		</footer>
+</body>
+</html>
